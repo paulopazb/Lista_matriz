@@ -173,7 +173,7 @@ public class frmListaEnc extends javax.swing.JFrame {
             for(int j=0;j<c;j++)
             {
                 int x=Integer.parseInt(JOptionPane.showInputDialog("Elemento:"));
-                m.setElem(x, f, c);
+                m.setElem(x, i, j);
             }
         }
     }
